@@ -1,0 +1,17 @@
+1. opening in the expression extracts the bright embeddings/features meaning high valued pixels,
+   closing extracts the dark ones, so, the addition of the bright and subtraction of the dark,
+   results in increasing the contrast and brightening the image with of course playing around
+   the a and b.
+
+2. Increasing the SE allowed more pixels to be part of the oprening and closing;
+   as for the dilation part, 3x number of pixels were allowed as for the closing but
+   they didn't cancel each other because they are not the complement of each other.
+
+3. increasing a increased the contrast and brighted the image while maintaining the main 
+   feature of the increasing itself which is more edges were detected clearly,
+   increasing b only increased the edge detection.
+
+4. lower the value of a could result in decreasing the contrast or we could change the signs of the
+   expression, that would focus more on the dark embeddings therefore decreasing the contrast.
+   
+
